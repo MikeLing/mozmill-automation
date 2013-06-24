@@ -417,7 +417,6 @@ class TestRun(object):
 
         try:
             # Run tests for each binary
-            for binary in self.binaries:
                 try:
                     self.prepare_binary(binary)
                     self.prepare_repository()
